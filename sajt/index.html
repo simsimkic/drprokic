@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordinacija "Dr Prokić"</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=M+PLUS+1p:wght@400&family=Poppins:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
+
+
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,     // trajanje animacije u ms
+    once: true,        // animacija se dešava samo prvi put
+  });
+</script>
+
+  <header class="site-header">
+    <div class="header-container">
+     <a href="index.html" class="logo">
+     <img src="logo.png" alt="Logo ordinacije">
+     <span>DR PROKIĆ</span>
+     </a>
+      <nav class="nav-links">
+        <a href="onama.html">O nama</a>
+        <a href="kucne.html">Kućne posete</a>
+        <a href="usluge.html">Usluge</a>
+        <a href="bolesti.html">Oblasti lečenja</a>
+        <a href="kontakt.html" class="contact-button">Kontakt</a>
+
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <section class="landing">
+<div class="landing-left" >
+  <div class="content-wrapper">
+    <h1  data-aos="fade-up">Vaše zdravlje, <br>naša briga.</h1>
+    <p>Specijalistička internistička ordinacija posvećena lečenju i savetovanju svakog pacijenta.</p>
+    <a href="kontakt.html" class="cta-button">Zakažite pregled</a>
+  </div>
+</div>
+  <div class="landing-right">
+    <img src="naslovna.png" alt="Doktor" />
+  </div>
+</section>
+
+
+
+
+  <main>
+  
+    <h2 class="specijalisticki-naslov" >Specijalistički pregledi</h2> <br>
+    <h3 class="subtitle-interna">GRANE INTERNE MEDICINE</h3>
+
+
+    <section class="specialties-grid">
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="endo.png" alt="Endokrinologija">
+  <p>Endokrinologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje poremećaja metabolizma i oboljenja žlezda sa unutrašnjim lučenjem (dijabetes, gojaznost, oboljenja štitne žlezde, osteoporoza itd.).</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="pulmo.png" alt="Pulmologija">
+  <p>Pulmologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje bolesti pluća i respiratornog sistema.</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="kardio.png" alt="Kardiologija">
+  <p>Kardiologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje bolesti srca i krvnih sudova.</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="nefro.png" alt="Nefrologija">
+  <p>Nefrologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje oboljenja mokraćno-polnog sistema.</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="imuno.png" alt="Imunologija">
+  <p>Imunologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje oboljenja i poremećaja imunog sistema i alergija.</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="reuma.png" alt="Reumatologija">
+  <p>Reumatologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje oboljenja mišićno/zglobnog-skeletnog sistema.</p>
+  </div>
+</div>
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="hemato.png" alt="Hematologija">
+  <p>Hematologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje krvi i krvotvornih organa.</p>
+  </div>
+</div>
+
+
+<div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="gastro.png" alt="Gastroenterologija">
+  <p>Gastroenterologija</p>
+  <div class="card-overlay">
+    <p>Dijagnostika i lečenje oboljenja organa za varenje.</p>
+  </div>
+</div>
+
+  <!-- <div class="specialty-card">
+    <img src="konsult.png" alt="Specijalističke konsultacije">
+    <p>Specijalističke konsultacije</p>
+  </div> -->
+
+  <div class="specialty-card" onclick="this.classList.toggle('revealed')">
+  <img src="konsult.png" alt="Konsultacije">
+  <p>Konsultantski pregledi</p>
+  <div class="card-overlay">
+    <p>Konsultantski pregledi iz drugih oblasti.</p>
+  </div>
+</div>
+</section>
+
+
+<section class="family-doctor-section" data-aos="fade-in">
+  <div class="family-doctor-wrapper">
+    <div class="family-doctor-image">
+      <img src="ruke.png" alt="Vaš porodični lekar" />
+    </div>
+    <div class="family-doctor-content" >
+      <h2>Vaš porodični lekar već 20+ godina</h2>
+      <p>
+Model privatnog lekara zasnovan na praksi porodičnog lekara koji pokriva sve aspekte medicine (bilo da je reč o opštoj ili specijalističkoj medicini) je nešto što naša ordinacija s posvećenošću i brigom pruža više od 20 godina.
+      </p>
+
+      <div class="highlight-boxes">
+        <div class="highlight">Dijagnostika i lečenje najrazličitijih oboljenja</div>
+        <div class="highlight">Za mlađe i starije članove porodice</div>
+        <div class="highlight">Praćenje istorije bolesti i napretka lečenja</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="treatment-options">
+  <h2 class="section-title">Naše opcije lečenja</h2>
+  <div class="options-grid">
+
+    <div class="option-card">
+      <img src="preglediuord.jpg" alt="Pregledi u ordinaciji">
+<div class="option-label">
+  <p class="option-title">Pregledi u ordinaciji</p> <br>
+  <div class="saznaj-wrapper">
+    <a href="usluge.html" class="saznaj-link">Saznajte više→</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="option-card">
+    <img src="kucne.png" alt="Kućne posete">
+    <div class="option-label">
+    <p class="option-title">Kućne posete</p> <br>
+    <div class="saznaj-wrapper">
+    <a href="usluge.html" class="saznaj-link">Saznajte više→</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="option-card">
+    <img src="ugovor.png" alt="Pretplate na lečenje">
+    <div class="option-label">
+    <p class="option-title">Pretplate na lečenje</p> <br>
+    <div class="saznaj-wrapper">
+    <a href="usluge.html" class="saznaj-link">Saznajte više→</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="option-card">
+    <img src="onlinekonsult.jpg" alt="Online konsultacije">
+    <div class="option-label">
+    <p class="option-title">Online konsultacije</p> <br>
+    <div class="saznaj-wrapper">
+    <a href="usluge.html" class="saznaj-link">Saznajte više→</a>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section class="sports-section">
+  <div class="section-wrapper">
+    <div class="sports-card" data-aos="fade-up">
+      <h2>Sportski pregled</h2>
+      <p>Utvrđivanje opšte zdravstvene sposobnosti (sportski pregled) sportista takmičara i učesnika u školskom i rekreativnom sportu. </p>
+    <div class="highlight-pill">Anamneza</div> <br>
+    <div class="highlight-pill">Elektrokardiogram (EKG)</div><br>
+    <div class="highlight-pill">Fizički pregled</div><br>
+    <div class="highlight-pill">Tumačenje laboratorijskih nalaza</div><br>
+    <div class="highlight-pill">Antropometrijska merenja (TT, TV, ITM)</div><br>
+    <div class="highlight-pill">Merenje krvnog pritiska</div><br>
+    <div class="highlight-pill">Izračunavanje bazalnog metabolizma</div><br>
+    <div class="highlight-pill">Merenje „body fitness“ parametara (% masti i mišića)</div> <br><br><br>
+      
+      <div class="saznaj-wrapper">
+    <a href="usluge.html" class="saznaj-link">Saznajte više→</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Kontakt</h4>
+       <p><a href="tel:0216543688">021/6543 688</a></p>
+       <p><a href="tel:0637721624">063/7721 624</a></p>
+      <p><a href="mailto:drproka@gmail.com">drproka@gmail.com</a></p>
+    </div>
+           <div class="footer-column">
+     <h4>Adresa</h4>
+     <p><span style="white-space: nowrap;">Vojvode Knićanina 5,</span><span style="white-space: nowrap;"> Novi Sad</span> </p>
+    </div>
+    <div class="footer-column">
+      <h4>Radno vreme</h4>
+      <p>Pon–Pet: 8.00–13.00; <span style="white-space: nowrap;">16.00–20.00</span></p>
+      <p>Subota: 8.00–12.00</p>
+      <p>Nedelja: Zatvoreno</p>
+    </div>
+<div class="footer-column social-column">
+  <h4>Društvene mreže</h4>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/ordinacija_dr_prokic/" target="_blank">
+      <img src="instagram.png" alt="Instagram" class="social-icon" data-hover="instagram_inv.png">
+    </a>
+    <a href="https://www.facebook.com/ordinacijadrprokic/" target="_blank">
+      <img src="facebook.png" alt="Facebook" class="social-icon" data-hover="facebook_inv.png">
+    </a>
+  </div>
+</div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
