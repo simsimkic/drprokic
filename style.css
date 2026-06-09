@@ -1,3 +1,4 @@
+
 .logo,
 .nav-links,
 .nav-links.show,
@@ -1155,7 +1156,8 @@ textarea {
 }
 
 .sports-section {
-	background-image: url('sport1280.webp');
+	/* background-image: url('sport1280.webp'); */
+    background-color: #f5f5f8;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
